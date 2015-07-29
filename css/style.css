@@ -130,7 +130,7 @@ h2 {
 }
 
 h2.section-title {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Marck Script', cursive;
     font-size: 92px;
     line-height: 116px;
     font-weight: 400;
@@ -140,14 +140,14 @@ h2.section-title {
 }
 
 h3 {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Marck Script', cursive;
     font-size: 52px;
     color: #FFFFFF;
     line-height: 43px;
 }
 
 h4 {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Marck Script', cursive;
     font-weight: 400;
     font-size: 28px;
     color: #0EC6CC;
@@ -299,8 +299,8 @@ img {
 
 
 .logo {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
     font-size: 35px;
     line-height: 50px;
     color: #DE533D;
@@ -1049,8 +1049,8 @@ input::-webkit-input-placeholder {
     width: 100%;
 }
 .hero.background .name {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
     font-size: 62px;
     color: #FFFFFF;
     line-height: 78px;
@@ -1325,8 +1325,8 @@ blockquote {
 }
 
 .posts-wrapper .year {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
     font-size: 32px;
     color: #FFFFFF;
     line-height: 43px;
@@ -1344,8 +1344,8 @@ blockquote {
 }
 
 .posts-wrapper .day {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
     font-size: 32px;
     color: #FFFFFF;
     line-height: 35px;
@@ -1746,8 +1746,8 @@ blockquote {
 }
 
 #gifts .price {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
     font-size: 92px;
     line-height: 142px;
     color: #FFFFFF;
@@ -2087,8 +2087,8 @@ aside {
 }
 
 #single h3.left {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
     font-size: 52px;
     margin-bottom: 45px;
 }
@@ -2333,8 +2333,8 @@ footer {
 }
 
 footer .baby-name {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
+    font-family: 'Marck Script', cursive;
+    font-weight: 400;
     font-size: 45px;
     color: #FFFFFF;
     line-height: 57px;
