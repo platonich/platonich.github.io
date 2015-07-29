@@ -130,7 +130,7 @@ h2 {
 }
 
 h2.section-title {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
     font-size: 92px;
     line-height: 116px;
     font-weight: 400;
@@ -140,14 +140,14 @@ h2.section-title {
 }
 
 h3 {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
     font-size: 52px;
     color: #FFFFFF;
     line-height: 43px;
 }
 
 h4 {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
     font-weight: 400;
     font-size: 28px;
     color: #0EC6CC;
@@ -299,7 +299,7 @@ img {
 
 
 .logo {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
     font-weight: 400;
     font-size: 35px;
     line-height: 50px;
@@ -1049,7 +1049,7 @@ input::-webkit-input-placeholder {
     width: 100%;
 }
 .hero.background .name {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
     font-weight: 400;
     font-size: 62px;
     color: #FFFFFF;
@@ -1325,7 +1325,7 @@ blockquote {
 }
 
 .posts-wrapper .year {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
     font-weight: 400;
     font-size: 32px;
     color: #FFFFFF;
@@ -1344,7 +1344,7 @@ blockquote {
 }
 
 .posts-wrapper .day {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
     font-weight: 400;
     font-size: 32px;
     color: #FFFFFF;
@@ -1746,7 +1746,7 @@ blockquote {
 }
 
 #gifts .price {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
     font-weight: 400;
     font-size: 92px;
     line-height: 142px;
@@ -2087,7 +2087,7 @@ aside {
 }
 
 #single h3.left {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
     font-weight: 400;
     font-size: 52px;
     margin-bottom: 45px;
@@ -2333,7 +2333,7 @@ footer {
 }
 
 footer .baby-name {
-    font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
     font-weight: 400;
     font-size: 45px;
     color: #FFFFFF;
