@@ -516,7 +516,7 @@
             });
         });
 
-        setFormAutoValue();
+        // setFormAutoValue();
 
         //ajax contact form
         $form.isValid({
