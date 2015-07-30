@@ -898,7 +898,7 @@ input::-webkit-input-placeholder {
 }
 
 #main-menu {
-    position: fixed;
+    position: absolute;
     text-align: center;
     line-height: 60px;
     height: 60px;
