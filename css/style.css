@@ -2366,7 +2366,7 @@ footer .baby-name {
 /* #Will Only Show on Desktops
 ================================================== */
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
     #main-menu nav#navigation {
         display: block!important;
         height: auto!important;
