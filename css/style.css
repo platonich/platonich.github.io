@@ -2366,7 +2366,7 @@ footer .baby-name {
 /* #Will Only Show on Desktops
 ================================================== */
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 1025px) {
     #main-menu nav#navigation {
         display: block!important;
         height: auto!important;
@@ -2382,7 +2382,7 @@ footer .baby-name {
 /* #This is for Tablets - move navigation part to 600px if you want to use nav for mobiles only.
 ================================================== */
 
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
     /* Responsive Menu */
     
     #main-menu .container {
@@ -2510,9 +2510,7 @@ footer .baby-name {
 ============================================================ */
 
 @media only screen and (max-width: 1280px) {
-    .logo {
-        margin-top: 0;
-    }
+ 
     input[type=search] {
         top: 5px;
         z-index: 9999;
