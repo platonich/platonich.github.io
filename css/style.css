@@ -1061,6 +1061,7 @@ input::-webkit-input-placeholder {
 .hero.background h1 {
     margin: 100px 0 50px 0;
     font-size: 52px;
+    line-height: 48px;
 }
 
 .hero.background .name:before {
