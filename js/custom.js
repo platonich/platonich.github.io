@@ -6,7 +6,7 @@
 
         /* Countdown timer
         ==================================================================================== */
-        var TMR = 0, birthday = '23.07.2015 11:30:00';
+        var TMR = 1000 * 60, birthday = '23.07.2015 11:30:00';
         setInterval(function() {
             var a = birthday.split(' '),
                 b = a[0].split('.'),
@@ -59,7 +59,7 @@
                     t = w[q][l];
                 $('#count-'+q).text(n+' '+t);
             }
-            TMR = 1000 * 60 * 60;
+            TMR = 1000 * 60;
         }, TMR);
 
 
