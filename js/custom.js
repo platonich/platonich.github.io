@@ -21,7 +21,7 @@
             T[4] = parseInt(c[1]),  C[4] = d.getMinutes(),
             T[5] = parseInt(c[2]),  C[5] = d.getSeconds();
 
-            for (var D = [], j = 0; j < 6; j++)
+            for (var D = [], j = 0; j < 5; j++)
                 D[j] = C[j] - T[j];
 
             if (D[5] < 0)
@@ -44,7 +44,7 @@
                 D[1] = C[1] + 12 - T[1],
                 D[0]--;
 
-            for (j = 0; j < 6; j++)
+            for (j = 0; j < 5; j++)
                 formTxt(D[j], j);
 
             function formTxt(n, q) {
