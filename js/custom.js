@@ -7,7 +7,13 @@
         /* Countdown timer
         ==================================================================================== */
         var TMR = 1000 * 60, birthday = '23.07.2015 11:30:00';
+        countf();
+        
         setInterval(function() {
+            countf();
+        }, TMR);
+
+        function countf() {
             var a = birthday.split(' '),
                 b = a[0].split('.'),
                 c = a[1].split(':'),
@@ -60,7 +66,7 @@
                 $('#count-'+q).text(n+' '+t);
             }
             TMR = 1000 * 60;
-        }, TMR);
+        }
 
 
         /* Hero height for full and half screen
