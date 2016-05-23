@@ -68,17 +68,6 @@
             TMR = 1000 * 60;
         }
 
-        /* Input element placeholder bug fix
-         ==================================================================================== */
-        input.onblur = function () {
-            if (this.value == '')
-                this.value = this.defaultValue;
-        };
-        input.onfocus = function () {
-            if (this.value == this.defaultValue)
-                this.value = '';
-        };
-
         /* Hero height for full and half screen
         ==================================================================================== */
         var windowHeight = $(window).height();

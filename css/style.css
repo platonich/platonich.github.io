@@ -283,12 +283,6 @@ img {
     height: auto;
 }
 
-@media \0screen {
-    img {
-        width: auto;
-        /* for ie 8 */
-    }
-}
 /* =========================================================== 
     3. Re-usable Elements
 ============================================================ */
@@ -675,7 +669,7 @@ aside .year {
 
 .mfp-arrow-left:before {
     content: '\f104';
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome', sans-serif;
     border: none;
     color: #fff;
     font-size: 42px;
@@ -687,7 +681,7 @@ aside .year {
 
 .mfp-arrow-right:before {
     content: '\f105';
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome', sans-serif;
     border: none;
     color: #fff;
     font-size: 42px;
@@ -848,7 +842,7 @@ input[type=search] {
 }
 
 input[type=search] {
-    background: url(../images/pictures/search.png) no-repeat center;
+    background: url(../images/search.png) no-repeat center;
     border: solid 1px #d8d8d8;
     width: 40px;
     height: 40px;
@@ -870,10 +864,9 @@ input[type=search] {
 
 input[type=search]:focus {
     width: 85%!important;
-    background-color: #fff;
     cursor: auto;
     padding: 0 35px;
-    background-position: 10px;
+    background: 10px #fff;
     text-indent: 0;
 }
 
@@ -897,7 +890,7 @@ input::-webkit-input-placeholder {
     height: 60px;
     border-bottom: 1px solid #efe7df;
     background-color: #f5f5f5;
-    box-shadow: 0px 0px 15px 11px rgba(20, 20, 20, 0.12);
+    box-shadow: 0 0 15px 11px rgba(20, 20, 20, 0.12);
     width: 100%;
     top: 0;
     left: 0;
@@ -963,10 +956,10 @@ input::-webkit-input-placeholder {
 
 #main-menu li.submenu:after {
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 0;
     content: '\f107';
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome', sans-serif;
     color: #bbb;
     -webkit-transform: translateZ(0);
     -webkit-transition: 0.3s all linear;
@@ -1090,10 +1083,9 @@ input::-webkit-input-placeholder {
 
 .hero.background .button-empty:hover {
     background: #DE533D;
-    border-radius: 40px 40px 40px 0px 40px;
+    border-radius: 40px 40px 40px 0;
     border-color: #DE533D;
     box-shadow: 0 3px #B93E2B;
-    border-radius: 40px 40px 40px 0px 40px;
 }
 
 .button-empty.small {
@@ -1169,9 +1161,8 @@ input::-webkit-input-placeholder {
 
 #about .column.six.image {
     padding: 0;
-    background-repeat: no-repeat;
+    background: center no-repeat;
     background-size: cover;
-    background-position: center;
 }
 
 #about .description {
@@ -1322,7 +1313,6 @@ blockquote {
     font-weight: 400;
     font-size: 32px;
     color: #FFFFFF;
-    line-height: 43px;
     position: absolute;
     left: 50%;
     margin-left: -45px;
@@ -1490,7 +1480,6 @@ blockquote {
 .posts-wrapper .more {
     font-size: 32px;
     color: #d6d6d6;
-    line-height: 43px;
     position: absolute;
     left: 50%;
     margin-left: -45px;
@@ -1570,7 +1559,6 @@ blockquote {
     position: absolute;
     width: 30px;
     height: 2px;
-    margin: auto;
     display: block;
     bottom: 0;
     left: 50%;
@@ -1582,7 +1570,7 @@ blockquote {
     text-align: center;
     border: none;
     max-width: 730px;
-    box-shadow: 0px 0px 15px 11px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 15px 11px rgba(0, 0, 0, 0.12);
     padding-left: 80px;
     margin: auto;
     padding-right: 80px;
@@ -1638,7 +1626,6 @@ blockquote {
     background-color: transparent;
     padding: 15px 30px;
       -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -1691,7 +1678,6 @@ blockquote {
 .isotope .isotope-item {
     -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s;
-    -ms-transition-duration: 0.4s;
     -o-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
@@ -1699,7 +1685,6 @@ blockquote {
 .isotope {
     -webkit-transition-property: height, width;
     -moz-transition-property: height, width;
-    -ms-transition-property: height, width;
     -o-transition-property: height, width;
     transition-property: height, width;
 }
@@ -1707,7 +1692,6 @@ blockquote {
 .isotope .isotope-item {
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
-    -ms-transition-property: -ms-transform, opacity;
     -o-transition-property: -o-transform, opacity;
     transition-property: transform, opacity;
 }
@@ -1727,9 +1711,8 @@ blockquote {
 
 #gifts .column.four.image {
     padding: 0;
-    background-repeat: no-repeat;
+    background: center no-repeat;
     background-size: cover;
-    background-position: center;
 }
 #gifts .gift-list {
     padding: 0 15px;
@@ -1782,7 +1765,6 @@ blockquote {
     top: 15px;
     width: 30px;
     height: 2px;
-    margin: auto;
     display: block;
     left: 50%;
     margin-left: -15px;
@@ -1827,7 +1809,6 @@ blockquote {
 
 #guestbook input[type="submit"] {
     border: 2px solid #DE533D;
-    border-radius: 40px;
     font-family: 'Lora', serif;
     font-style: italic;
     font-size: 19px;
@@ -1844,7 +1825,7 @@ blockquote {
     float: none;
     position: relative;
     box-shadow: 0 3px #B93E2B;
-    border-radius: 40px 40px 40px 0px 40px;
+    border-radius: 40px 40px 40px 0;
 }
 
 #guestbook input[type="submit"]:active {
@@ -1883,7 +1864,7 @@ blockquote {
 }
 
 .instagram-images a:hover:after {
-    font-family: 'Simple-Line-Icons';
+    font-family: 'Simple-Line-Icons', sans-serif;
     content: "\e08d";
     position: absolute;
     left: 50%;
@@ -2004,7 +1985,6 @@ aside {
     padding: 0;
     margin-top: 0;
     -o-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -2157,9 +2137,8 @@ aside {
     min-height: 200px;
     float: left;
     margin-right: 2%;
-    background-repeat: no-repeat;
+    background: center no-repeat;
     background-size: cover;
-    background-position: center;
 }
 
 #single .related-post:last-child {
@@ -2182,20 +2161,15 @@ aside {
 }
 
 #single .related-post h4 a {
-    font: 19px/32px 'Open Sans', sans-serif;
+    font: 17px/24px 'Open Sans', sans-serif;
     font-weight: 400;
     position: absolute;
     top: 20px;
     left: 20px;
     margin: 0 20px 0 0;
     letter-spacing: normal;
-    font-size: 17px;
     color: #FFFFFF;
-    line-height: 24px;
     text-align: left;
-    font-size: 17px;
-    color: #FFFFFF;
-    line-height: 24px;
 }
 
 #single .related-posts .post-wrapper {
@@ -2271,7 +2245,6 @@ aside {
 
 .leave-reply input[type="submit"] {
     border: 2px solid #DE533D;
-    border-radius: 40px;
     font-family: 'Lora', serif;
     font-style: italic;
     font-size: 19px;
@@ -2288,7 +2261,7 @@ aside {
     float: none;
     position: relative;
     box-shadow: 0 3px #B93E2B;
-    border-radius: 40px 40px 40px 0px 40px;
+    border-radius: 40px 40px 40px 0;
 }
 
 .leave-reply input[type="submit"]:active {
@@ -2494,7 +2467,6 @@ footer .baby-name {
     #menu-toggle:before {
         -webkit-transition: all .3s cubic-bezier(0.585, -.6, .43, 1.65);
         -moz-transition: all .3s cubic-bezier(0.585, -.6, .43, 1.65);
-        -ms-transition: all .3s cubic-bezier(0.585, -.6, .43, 1.65);
         -o-transition: all .3s cubic-bezier(0.585, -.6, .43, 1.65);
         transition: all .3s cubic-bezier(0.585, -.6, .43, 1.65)
     }
