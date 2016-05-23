@@ -70,16 +70,15 @@
 
         /* Input element placeholder bug fix
          ==================================================================================== */
-        var input = document.getElementsByTagName('input');
-        input.onblur = function () {
+        var inputs = document.getElementsByTagName('input');
+        inputs.onblur = function () {
             if (this.value == '')
                 this.value = this.defaultValue;
         };
-        input.onfocus = function () {
+        inputs.onfocus = function () {
             if (this.value == this.defaultValue)
                 this.value = '';
         };
-        input.value = input.placeholder;
 
         /* Hero height for full and half screen
         ==================================================================================== */
