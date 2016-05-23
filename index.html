@@ -703,11 +703,11 @@
             </div>
             <div class="column ten comment-form">
                 <form action="guestbook.php"  method="POST" autocomplete="off" class="actionform">
-                    <input type="text" name="name" value="Имя" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                    <input type="email" name="email" class="email" value="Электропочта" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                    <input type="text" id="website" value="Ваш сайт" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                    <input type="text" name="name" value="" placeholder="Имя">
+                    <input type="email" name="email" class="email" value="" placeholder="Электропочта">
+                    <input type="text" id="website" value="" placeholder="Ваш сайт">
                     <div class="clearfix"></div>
-                    <textarea rows="10" id="comment">Сообщение</textarea>
+                    <textarea rows="10" id="comment" placeholder="Сообщение"></textarea>
                     <input type="hidden" name="submit">
                     <input type="submit" class="send" value="Отправить">
                     <div class="clearfix"></div>
