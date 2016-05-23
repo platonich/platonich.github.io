@@ -1083,7 +1083,7 @@ input::-webkit-input-placeholder {
 
 .hero.background .button-empty:hover {
     background: #DE533D;
-    border-radius: 40px 40px 40px 0;
+    border-radius: 40px;
     border-color: #DE533D;
     box-shadow: 0 3px #B93E2B;
 }
@@ -1825,7 +1825,7 @@ blockquote {
     float: none;
     position: relative;
     box-shadow: 0 3px #B93E2B;
-    border-radius: 40px 40px 40px 0;
+    border-radius: 40px;
 }
 
 #guestbook input[type="submit"]:active {
@@ -2261,7 +2261,7 @@ aside {
     float: none;
     position: relative;
     box-shadow: 0 3px #B93E2B;
-    border-radius: 40px 40px 40px 0;
+    border-radius: 40px;
 }
 
 .leave-reply input[type="submit"]:active {
