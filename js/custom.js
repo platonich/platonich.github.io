@@ -73,10 +73,10 @@
         var input = document.getElementsByTagName('input');
         input.onblur = function () {
             if (this.value == '')
-                this.value = this.placeholder;
+                this.value = this.defaultValue;
         };
         input.onfocus = function () {
-            if (this.value == this.placeholder)
+            if (this.value == this.defaultValue)
                 this.value = '';
         };
         input.value = input.placeholder;
