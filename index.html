@@ -703,7 +703,7 @@
             </div>
             <div class="column ten comment-form">
                 <form action="//platon.arsen.pw/guestbook.php"  method="post" autocomplete="off" class="actionform">
-                    <input type="text" name="name" placeholder="Имя" onfocus="if (this.value == this.placeholder) { this.value = ''; }" onblur="if (this.value == '') { this.value = this.placeholder }">
+                    <input type="text" name="name" placeholder="Имя" onload="this.value = this.placeholder" onfocus="if (this.value == this.placeholder) { this.value = ''; }" onblur="if (this.value == '') { this.value = this.placeholder }">
                     <input type="email" name="email" class="email" placeholder="Электропочта">
                     <input type="text" id="website" placeholder="Ваш сайт">
                     <div class="clearfix"></div>
