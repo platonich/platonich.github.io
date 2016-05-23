@@ -70,12 +70,11 @@
 
         /* Input element placeholder bug fix
          ==================================================================================== */
-        var inputs = document.getElementsByTagName('input');
-        inputs.onblur = function () {
+        input.onblur = function () {
             if (this.value == '')
                 this.value = this.defaultValue;
         };
-        inputs.onfocus = function () {
+        input.onfocus = function () {
             if (this.value == this.defaultValue)
                 this.value = '';
         };
