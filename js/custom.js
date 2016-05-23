@@ -68,6 +68,18 @@
             TMR = 1000 * 60;
         }
 
+        /* Input element placeholder bug fix
+         ==================================================================================== */
+        var input = $('input[type="text"]');
+        input.onblur(function () {
+           if (this.value == '')
+               this.value = this.placeholder;
+        });
+        input.onfocus(function () {
+            if (this.value == this.placeholder)
+                this.value = '';
+        });
+        input.value = input.placeholder;
 
         /* Hero height for full and half screen
         ==================================================================================== */
