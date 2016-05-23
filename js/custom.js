@@ -4,7 +4,7 @@
 
     $(document).ready(function() {
 
-        /* Countdown timer
+        /* Happy Birthday timer
         ==================================================================================== */
         var TMR = 1000 * 60, birthday = '23.07.2015 11:30:00';
         countf();
