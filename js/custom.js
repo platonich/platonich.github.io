@@ -70,7 +70,7 @@
 
         /* Input element placeholder bug fix
          ==================================================================================== */
-        var input = $('input[type="text"]');
+        var input = document.getElementsByTagName('input');
         input.onblur = function () {
             if (this.value == '')
                 this.value = this.placeholder;
